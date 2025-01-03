@@ -219,15 +219,14 @@ export default function Page() {
                 Liên Hệ
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Hãy kết nối qua email hoặc qua tin nhắn {" "}
-                {/* <Link
-                  href={DATA.contact.social.X.url}
+                Hãy kết nối qua email:&quot;phuoc3003pham@gmail.com&quot; hoặc qua tin nhắn {" "}
+                <Link
+                  href={DATA.contact.social.GitHub.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
-                </Link>{" "} */}
-                {/* and I&apos;ll respond whenever I can. I will ignore all
-                soliciting. */}
+                 facebook nha!
+                </Link>{" "}
+                hoặc tìm hiểu thêm về mình bằng link github bên dưới 😁
               </p>
             </div>
           </BlurFade>
