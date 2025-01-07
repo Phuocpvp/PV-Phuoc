@@ -234,7 +234,7 @@ myDog.bark(); // "Gâu gâu!"`}</code>
               <p>Prototypes cho phép chia sẻ phương thức giữa các đối tượng, tiết kiệm bộ nhớ và tạo cơ chế kế thừa.</p>
             </section>
 
-            <section>
+            {/* <section>
               <h2 className="text-2xl font-semibold mb-4">Destructuring và Spread Operator</h2>
               <p className="mb-4">ES6+ giới thiệu các cách mạnh mẽ để làm việc với đối tượng:</p>
               <pre className="bg-gray-100 p-4 rounded-lg mb-4">
@@ -252,7 +252,7 @@ let { name: personName, ...rest } = person;
 console.log(personName); // "Alice"
 console.log(rest); // { age: 30, city: "New York" }`}</code>
               </pre>
-            </section>
+            </section> */}
 
             <section>
               <h2 className="text-2xl font-semibold mb-4">Kết luận</h2>
