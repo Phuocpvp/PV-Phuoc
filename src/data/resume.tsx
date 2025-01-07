@@ -1,10 +1,10 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { Facebook, HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Phuoc Pham Van",
   initials: "PP",
-  url: "https://dillion.io",
+  url: "https://www.facebook.com/phuoc3003",
   location: "VietNam, TP.Ho Chi Minh",
   locationLink: "https://maps.app.goo.gl/AKhhMejmG2ynStcF7",
   description:
@@ -13,8 +13,6 @@ export const DATA = {
     "Tôi là một chàng trai trẻ, với lòng nhiệt huyết với ngành công nghệ thông tin. Sinh ra và lớn lên ở Phú Yên!",
   avatarUrl: "/me.jpg",
   skills: [
-    "Ăn",
-    "Ngủ",
     "Next.js",
     "Flutter",
     "JavaScript",
@@ -31,18 +29,18 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://www.facebook.com/phuoc3003",
+        url: "https://github.com/Phuocpvp",
         icon: Icons.github,
 
         navbar: true,
       },
-      // LinkedIn: {
-      //   name: "LinkedIn",
-      //   url: "https://dub.sh/dillion-linkedin",
-      //   icon: Icons.linkedin,
+      Facebook: {
+        name: "Facebook",
+        url: "https://www.facebook.com/phuoc3003",
+        icon: Icons.facebook,
 
-      //   navbar: true,
-      // },
+        navbar: true,
+      },
       // X: {
       //   name: "X",
       //   url: "https://dub.sh/dillion-twitter",
@@ -139,6 +137,29 @@ export const DATA = {
     //   description:
     //     "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
     // },
+  ],
+  certificate: [
+    {
+      name: "Networking Basics",
+      href: "https://www.credly.com/badges/18ab2065-49a2-4512-a262-35e29b45c2c5/public_url",
+      degree: "Chứng chỉ về Networking Basics",
+      logoUrl: "/networking-basics.png",
+      start: "2024",
+    },
+    {
+      name: "JavaScript Essentials 1",
+      href: "https://www.credly.com/badges/20b8fc77-3d99-4762-8be2-b870a1ba7882/public_url",
+      degree: "Chứng chỉ về JavaScript",
+      logoUrl: "/networking-basics.png",
+      start: "2024",
+    },
+    {
+      name: "JavaScript Essentials 2",
+      href: "https://www.credly.com/badges/f142e2d6-058c-4806-bf3c-371a65b4cd95/public_url",
+      degree: "Chứng chỉ về JavaScript",
+      logoUrl: "/javascript-essentials-2.png",
+      start: "2024",
+    },
   ],
   education: [
     {

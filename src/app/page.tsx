@@ -111,6 +111,29 @@ export default function Page() {
           ))}
         </div>
       </section>
+      <section id="certificate">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+            <h2 className="text-xl font-bold">Chứng Chỉ</h2>
+          </BlurFade>
+          {DATA.certificate.map((certificate, id) => (
+            <BlurFade
+              key={certificate.name}
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+            >
+              <ResumeCard
+                key={certificate.name}
+                href={certificate.href}
+                logoUrl={certificate.logoUrl}
+                altText={certificate.name}
+                title={certificate.name}
+                subtitle={certificate.degree}
+                period={`${certificate.start}`}
+              />
+            </BlurFade>
+          ))}
+        </div>
+      </section>
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
@@ -221,7 +244,7 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Hãy kết nối qua email:&quot;phuoc3003pham@gmail.com&quot; hoặc qua tin nhắn {" "}
                 <Link
-                  href={DATA.contact.social.GitHub.url}
+                  href={DATA.contact.social.Facebook.url}
                   className="text-blue-500 hover:underline"
                 >
                  facebook nha!
